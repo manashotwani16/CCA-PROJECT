@@ -1,0 +1,263 @@
+.box{
+    position: absolute;
+    width: 1280px;
+    height: 65px;
+    left: 125px;
+    top: 49px;
+    background: #000000;
+    border-radius: 5px;
+    border: 1px solid black;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.border{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1065px;
+    height: 689px;
+    left: 240px;
+    top: 197px;
+    
+    border: 1px dashed #000000;
+}
+   
+  
+.box1{
+    position: absolute;
+    width: 1280px;
+    height: 65px;
+    left: 130px;
+    top: 965px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 68px;
+    color: #000000;
+}
+
+.date{ 
+/* Lorem ipsum dolor sit amet consectetur. Maecenas porttitor leo convallis magna orci. Fames accumsan imperdiet at interdum hac sit tortor mattis amet. Semper tempus pulvinar adipiscing hendrerit senectus interdum. */
+
+position: absolute;
+width: 954px;
+height: 69px;
+left: 600px;
+top: 230px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;
+
+}
+.heading{
+    position: absolute;
+width: 500px;
+height: 69px;
+left: 150px;
+top: 250px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;
+}
+.card {
+    width:900px;
+    height: 100px;
+    background: #EDFFF2;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    backdrop-filter: blur(10px);
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    left:320px;
+    top: 340px;
+
+  }
+  
+  .card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  
+  .img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: linear-gradient(#d7cfcf, #9198e5);
+  }
+  
+  .card:hover > .img {
+    transition: 0.5s ease-in-out;
+    background: linear-gradient(#9198e5, #712020);
+  }
+  
+  .textBox {
+    width: calc(100% - 90px);
+    margin-left: 10px;
+    color: white;
+    font-family: 'Poppins' sans-serif;
+  }
+  
+  .textContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .span {
+    font-size: 10px;
+  }
+  
+  .h1 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .p {
+    font-size: 12px;
+    font-weight: lighter;
+  }
+  
+  .card1 {
+    width:900px;
+    height: 100px;
+    background: #FFEDEE;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    backdrop-filter: blur(10px);
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    left:320px;
+    top: 510px;
+
+  }
+  
+  .card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  
+  .img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: linear-gradient(#d7cfcf, #9198e5);
+  }
+  
+  .card:hover > .img {
+    transition: 0.5s ease-in-out;
+    background: linear-gradient(#9198e5, #712020);
+  }
+  
+  .textBox {
+    width: calc(100% - 90px);
+    margin-left: 10px;
+    color: white;
+    font-family: 'Poppins' sans-serif;
+  }
+  
+  .textContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .span {
+    font-size: 10px;
+  }
+  
+  .h1 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .p {
+    font-size: 12px;
+    font-weight: lighter;
+  }
+  
+  
+  .card2 {
+    width:900px;
+    height: 100px;
+    background: #EDFFF2;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    backdrop-filter: blur(10px);
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    left:320px;
+    top: 700px;
+
+  }
+  
+  .card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  
+  .img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: linear-gradient(#d7cfcf, #9198e5);
+  }
+  
+  .card:hover > .img {
+    transition: 0.5s ease-in-out;
+    background: linear-gradient(#9198e5, #712020);
+  }
+  
+  .textBox {
+    width: calc(100% - 90px);
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins' sans-serif;
+  }
+  
+  .textContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .span {
+    font-size: 10px;
+  }
+  
+  .h1 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .p {
+    font-size: 12px;
+    font-weight: lighter;
+  }

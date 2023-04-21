@@ -1,0 +1,174 @@
+.box{
+    position: absolute;
+    width: 1280px;
+    height: 65px;
+    left: 125px;
+    top: 49px;
+    background: #000000;
+    border-radius: 5px;
+    border: 1px solid black;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.border{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1065px;
+    height: 689px;
+    left: 240px;
+    top: 197px;
+    
+    border: 1px dashed #000000;
+}
+.btn {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+width: 183px;
+height: 56px;
+left: 420px;
+top: 700px;
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+
+   .btn2 {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+width: 183px;
+height: 56px;
+left: 920px;
+top: 700px;
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+.box1{
+    position: absolute;
+    width: 1280px;
+    height: 65px;
+    left: 130px;
+    top: 965px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 68px;
+    color: #000000;
+}
+
+.Text{ 
+/* Lorem ipsum dolor sit amet consectetur. Maecenas porttitor leo convallis magna orci. Fames accumsan imperdiet at interdum hac sit tortor mattis amet. Semper tempus pulvinar adipiscing hendrerit senectus interdum. */
+
+position: absolute;
+width: 954px;
+height: 69px;
+left: 290px;
+top: 565px;
+
+font-family: 'Work Sans',;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;
+
+}
+.heading{
+    position: absolute;
+width: 954px;
+height: 69px;
+left: 290px;
+top: 500px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;
+}
+.image{
+    position: absolute;
+width: 954px;
+height: 69px;
+left: 290px;
+top: 230px;
+}

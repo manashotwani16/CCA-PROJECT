@@ -1,0 +1,148 @@
+.box{
+    position: absolute;
+    width: 1280px;
+    height: 65px;
+    left: 125px;
+    top: 49px;
+    background: #000000;
+    border-radius: 5px;
+    border: 1px solid black;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.border{
+    box-sizing: border-box;
+
+    position: absolute;
+    width:565px;
+    height: 650px;
+    left: 800px;
+    top: 197px;
+    
+    border: 1px dashed #000000;
+}
+.btn {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+    width: 183px;
+    height: 56px;
+    left: -10px;
+    top: 480px;
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+.box1{
+    position: absolute;
+    width: 1280px;
+    height: 65px;
+    left: 130px;
+    top: 965px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 68px;
+    color: #000000;
+}
+.text{
+    position: absolute;
+    width: 1280px;
+    height: 65px;
+    left: 160px;
+    top: 235px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 68px;
+    color: #000000;
+}
+.heading{
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 150px;
+    top: 198px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    
+    color: #000000;
+    }
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  textarea {
+    height: 150px;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+
